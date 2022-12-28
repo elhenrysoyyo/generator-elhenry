@@ -11,9 +11,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "template",
+    "backend"
   ],
-  "author": "",
+  "author": "elhenry",
   "license": "ISC",
   "files": [
     "app",
