@@ -1,0 +1,36 @@
+{
+  "filesToCopy": [
+    {
+      "input": "./README.md",
+      "output": "./README.md"
+    }, {
+      "input": "./src/bin/www",
+      "output": "./src/bin/www"
+    }, {
+      "input": "./src/app.js",
+      "output": "./src/app.js"
+    }, {
+      "input": "./src/config/environment.js",
+      "output": "./src/config/environment.js"
+    }, {
+      "input": "./src/config/cors.js",
+      "output": "./src/config/cors.js"
+    }, {
+      "input": "./src/routes/routes.js",
+      "output": "./src/routes/routes.js"
+    }, {
+      "input": "./src/helpers/error.js",
+      "output": "./src/helpers/error.js"
+    }
+  ],
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "helmet": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}

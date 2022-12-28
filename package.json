@@ -1,0 +1,26 @@
+{
+  "name": "generator-elhenry",
+  "version": "1.0.0",
+  "description": "yeoman template generator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elhenrysoyyo/generator-elhenry.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "app",
+    "router"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^5.6.1",
+    "mkdirp": "^1.0.4"
+  }
+}

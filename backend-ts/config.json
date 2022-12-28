@@ -1,0 +1,57 @@
+{
+  "filesToCopy": [
+    {
+      "input": "./README.md",
+      "output": "./README.md"
+    }, {
+      "input": "./src/app.ts",
+      "output": "./src/app.ts"
+    }, {
+      "input": "./src/config/cors.ts",
+      "output": "./src/config/cors.ts"
+    }, {
+      "input": "./src/config/environment.ts",
+      "output": "./src/config/environment.ts"
+    }, {
+      "input": "./src/config/server.ts",
+      "output": "./src/config/server.ts"
+    }, {
+      "input": "./src/routes/routes.ts",
+      "output": "./src/routes/routes.ts"
+    }, {
+      "input": "./src/helpers/error.ts",
+      "output": "./src/helpers/error.ts"
+    }
+  ],
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "helmet": "^5.1.0",
+    "module-alias": "^2.2.2",
+    "morgan": "^1.10.0",
+    "@types/node": "18.11"
+  }, 
+  "devDependencies": {
+    "nodemon": "^2.0.0",
+    "typescript": "^4.7.0"
+  },
+  "_moduleAliases": {
+    "@config": "./dist/src/config"
+  },
+  "tsConfiguration": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "target": "es2021",
+      "moduleResolution": "Node",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "resolveJsonModule": true,
+      "baseUrl": "./src",
+      "paths": {
+        "@config/*": ["config/*"]
+      }
+    }
+  }
+}
