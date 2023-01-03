@@ -1,6 +1,6 @@
 {
   "name": "generator-elhenry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "yeoman template generator",
   "main": "app/index.js",
   "repository": {
@@ -19,7 +19,13 @@
   "license": "ISC",
   "files": [
     "app",
-    "router"
+    "backend-js",
+    "backend-ts",
+    "dockerfile",
+    "eslint",
+    "frontend-ts",
+    "sentry",
+    "swagger"
   ],
   "dependencies": {
     "yeoman-generator": "^5.6.1",
